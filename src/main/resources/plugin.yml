@@ -1,0 +1,14 @@
+name: MMOItemsClassDamageStat
+main: com.sigong.mmoitemsclassdamagestat.MMOItemsClassDamageStat
+version: ${project.version}
+api-version: 1.13
+loadbefore: [MMOItems, MMOCore, MythicLib]
+commands:
+  micdc:
+    description: "Main command for MMOItemsClassDamageStat. Allows config to be reloaded or debug messages to be toggled."
+    permission: micdc.*
+    usage: /micdc [reload | toggledebug]
+permissions:
+  micdc.*:
+    description: "Allows use of \"/micdc reload\" and \"/micdc toggledebug]\""
+    default: op

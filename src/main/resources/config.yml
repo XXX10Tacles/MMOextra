@@ -1,0 +1,17 @@
+# Effective limits for stats (any stat beyond one of the limits will be treated as that limit in calculations).
+# Can hold any double value, or NULL if you don't want to set a limit.
+limits:
+  attacker:
+    percent:
+      upper-limit: NULL
+      lower-limit: NULL
+    raw:
+      upper-limit: NULL
+      lower-limit: NULL
+  defender:
+    percent:
+      upper-limit: NULL
+      lower-limit: NULL
+    raw:
+      upper-limit: NULL
+      lower-limit: NULL
